@@ -31,3 +31,11 @@ Phospho_TN_FC.txt: A CSV (or appropriate format) containing phosphorylation leve
 **Output Data**  
 Coef_phospho_TN_FC_onlyDBCK_NES_SumPosSubNeg_LassoOnPathwayPhosphorylations_TN_FC.txt: result of LASSO regression with TFs, phsphosites and their contribution to the prediction of the TF activity  
 RMSE_Rsquared_phospho_TN_FC_TF_onlyDBCK_NES_SumPosSubNeg_LassoOnPathwayPhosphorylations_TN_FC.txt: result of LASSO regression with Rsquared, Root Mean Square Error (RMSE) and the TFs of the regressions.  
+
+## References  
+
+[1] Gillette MA, Satpathy S, Cao S, et al. Proteogenomic Characterization Reveals Therapeutic Vulnerabilities in Lung Adenocarcinoma. Cell. 2020;182(1):200-225.e35.  
+[2] Mercatelli D, Lopez-Garcia G, Giorgi FM. corto: a lightweight R package for gene network inference and master regulator analysis. Bioinformatics. 2020;36(12):3916-3917  
+[3] Qian FC, Li XC, Guo JC, et al. SEanalysis: a web tool for super-enhancer associated regulatory analysis. Nucleic Acids Res. 2019;47(W1):W248-W255.  
+[4] Subramanian A, Tamayo P, Mootha VK, et al. Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles. Proc Natl Acad Sci U S A. 2005;102(43):15545-15550.  
+
