@@ -13,7 +13,7 @@ load("input/RNA-seq_GNAME_VST_NAT.rda")
 
 
 #Tumor samples
-cts_tumor=read.table('../input_data/RNA-seq_GNAME_VST_TUM.tsv', sep='\t', header = TRUE)
+cts_tumor=read.table('input/RNA-seq_GNAME_VST_TUM.tsv', sep='\t', header = TRUE)
 cts_tum<-cts_tumor[,-1]
 rownames(cts_tum)<-cts_tumor[,1]
 
@@ -21,7 +21,7 @@ load("input/RNA-seq_GNAME_VST_TUM.rda")
 
 
 #centroids list
-tfgenes=read.table('../input_data/centroids_TF_NAT&TUM_gname.txt', header = TRUE)
+tfgenes=read.table('input/centroids_TFs.txt', header = TRUE)
 tfgenes<-unlist(tfgenes)
 tfgenes<-unname(tfgenes)
 
